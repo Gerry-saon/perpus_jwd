@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "open sans" sans-serif;
+}
+
+
+body {
+    height: 100vh;
+    background-image: url("../../JWD_PERPUS/images/R.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.container {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    padding: 20px 20px;
+    width: 300px;
+    background-color: #7a5010;
+    box-shadow: 0 0 19px rgba(255, 255, 255, 255, .3);
+    border-radius: 10px;
+
+}
+
+.container h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+.container label {
+    text-align: left;
+    color: #ffffff;
+    font-size: 18px;
+    border-radius: 0%;
+}
+
+.container form input {
+    width: calc(100% - 20px);
+    padding: 0px 10px;
+    margin-bottom: 20px;
+    border: none;
+    background-color: transparent;
+    border-bottom: 2px solid white;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.container form button {
+    width: 100%;
+    padding: 8px;
+    border: none;
+    font-style: bold;
+    font-size: 20px;
+    color: #000000;
+    border-radius: 8px;
+    text-decoration: none;
+
+}
+
+.container form button:hover{
+    background-color: #8d8b8b;
+    color: #f3f3f3;
+}
